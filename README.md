@@ -1,41 +1,30 @@
 # Unit 14 Sequelize Homework: Reverse Engineering Code
 
-Reverse engineer the starter code provided and create a tutorial for the code.
+In this homework assignment I reverse engineered the code provided in the develop folder. 
+ 
+ I also created a [google document](https://drive.google.com/file/d/1ODdVWrhqXV_LI_ZbdHPOoehma9EpOtGA/view?usp=sharing) tutorial for the code. 
+  
+  Instructions: 
 
-In the `Develop` folder, there is starter code for a project. Begin inspecting the code to get an understanding of each file's responsibility. Then, in a Google Doc, write a tutorial explaining *every* file and its purpose. If one file is dependant on other files, be sure to let the user know.
+  1. Begin by cloning this repository into your local storage.
 
-At the end of the tutorial, add instructions for how you could now add changes to this project.
+  2. Create SQL scripts for 3 databases as named in the config.json file. 
 
-Following the [common templates for user stories](https://en.wikipedia.org/wiki/User_story#Common_templates), we can frame this challenge as follows:
+  3. Open and run scripts in MySQL to create the databases. 
 
-```
-AS A developer
+  4. Edit the config.js file and include your own personal data. 
+  ex: password for MySQL
 
-I WANT a walk-through of the codebase
+  5. Open the terminal and run "npm install" to install the required node modules for this project. 
 
-SO THAT I can use it as a starting point for a new project
-```
+  6. Run npm and fix issues if any. 
 
-## Business Context
+  7. Run "node server.js" to check if server is working. 
 
-When joining a new team, you will be expected to inspect a lot of code that you have never seen before. Rather than having a team member explain every line for you, you will dissect the code by yourself, saving any questions for a member of your team.
+  9. Test HTML features by opening the links in browser. 
 
-## Acceptance Criteria
+  10. Check the MySQL database to ensure data is being saved. 
+  
 
-```md
-GIVEN a Node.js application using Sequelize and Passport
-WHEN I follow the walkthrough
-THEN I understand the codebase
-```
-- - -
 
-## Submission on BCS
 
-You are required to submit the following:
-
-* A link to a Google Doc or video explaining the application in `Develop/`. 
-
-_Note: Don't forget to change the sharing settings on your Google Doc._
-
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
